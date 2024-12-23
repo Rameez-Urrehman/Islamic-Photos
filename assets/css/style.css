@@ -1,0 +1,79 @@
+:root {
+    --theme-primery-color: #2ab939;
+    --theme-primery-transparent: rgba(42, 185, 57, 0.5);
+    --theme-secondry-color: #1d2b1a;
+    --theme-secondry-transparent: #1d2b1a;
+    --theme-black: #181818;
+    --theme-white: #f8f4f4;
+    --theme-white-imp: #ece8e8;
+}
+
+body {
+    background: var(--theme-white-imp);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+
+header {
+    background: var(--theme-white-imp);
+}
+
+main {
+    background: var(--theme-white-imp);
+}
+
+main .custom-sec {
+    margin-top: 10px;
+    background: var(--theme-white-imp);
+}
+
+main section{
+    margin-top: 8px;
+}
+
+
+
+main .custom-section {
+    margin-top: 10px;
+}
+
+section div .card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main section .flex {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+main section .flex .custom-border {
+    border: solid black 1px
+    
+}
+
+ 
+
+main .n-p-buttons{
+    align-items: center;
+}
+
+
+
+footer {
+    background: var(--theme-white)
+}
+
+footer .custom-footer {
+    padding-top: 50px;
+}
